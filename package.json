@@ -1,0 +1,47 @@
+{
+    "name": "drakkar-black-ops",
+    "displayName": "Drakkar Black Ops",
+    "description": "A true full black theme. No gray pretending to be black.",
+    "publisher": "joaomgueiros",
+    "author": "joaom.gueiros",
+    "version": "0.1.0",
+    "license": "MIT",
+    "icon": "imgs/icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://git.drakkarsecurity.com/joaom.gueiros/drakkar-black-ops-theme.git"
+    },
+    "homepage": "https://git.drakkarsecurity.com/joaom.gueiros/drakkar-black-ops-theme#readme",
+    "bugs": {
+        "url": "https://git.drakkarsecurity.com/joaom.gueiros/drakkar-black-ops-theme/issues"
+    },
+    "galleryBanner": {
+        "color": "#000000",
+        "theme": "dark"
+    },
+    "engines": {
+        "vscode": "^1.86.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "full black",
+        "dark",
+        "black"
+    ],
+    "main": "./extension.js",
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Drakkar Black Ops - Full Black",
+                "uiTheme": "vs-dark",
+                "path": "./themes/drakkar-black-ops.json"
+            }
+        ]
+    }
+}
