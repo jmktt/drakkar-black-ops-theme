@@ -60,6 +60,11 @@ The [Indent Rainbow](https://open-vsx.org/extension/oderwat/indent-rainbow) defa
 ]
 ```
 
+## Privacy & security
+- No network access, no telemetry, no dependencies.
+- The only code is a status bar label. It reads one setting (`workbench.colorTheme`) and nothing else.
+- Runs only on your local machine, never on remote SSH/WSL/container hosts, and works in Restricted Mode.
+
 ## FAQ
 **A file shows up with no colors at all.**
 The editor turns off syntax highlighting for files over 20 MB and for lines over 20,000 characters. This happens with every theme. To force it on large files, set `"editor.largeFileOptimizations": false`. Expect the editor to be slower.

@@ -4,7 +4,7 @@
     "description": "A true full black theme. No gray pretending to be black.",
     "publisher": "joaomgueiros",
     "author": "joaom.gueiros",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "license": "MIT",
     "icon": "imgs/icon.png",
     "repository": {
@@ -35,6 +35,15 @@
     "activationEvents": [
         "onStartupFinished"
     ],
+    "extensionKind": [
+        "ui"
+    ],
+    "capabilities": {
+        "untrustedWorkspaces": {
+            "supported": true
+        },
+        "virtualWorkspaces": true
+    },
     "contributes": {
         "themes": [
             {

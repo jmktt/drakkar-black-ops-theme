@@ -1,3 +1,6 @@
 .vscode/**
+.git/**
+.gitignore
+.gitattributes
 imgs/logo.png
-check-contrast.js
+check-theme.js

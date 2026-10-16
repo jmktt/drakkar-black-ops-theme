@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.1.1]
+### Fixed
+- Two color keys the editor does not recognize (`activityBar.activeForeground`, `testing.message.error.decorationForeground`) replaced with the correct ones.
+- Activity bar placed at the top (`workbench.activityBar.location: "top"`) now follows the theme, with the silver-ice active border.
+
+### Added
+- Colors for input validation, error/warning peek (F8), secondary and extension buttons, status bar error/warning items, terminal search, unfocused tabs, minimap and scrollbar markers, menus, toolbars, chat and inline chat.
+- `check-theme.js`: checks contrast against black and flags color keys unknown to the installed VS Code / VSCodium.
+
+### Security
+- Runs only on the local UI (`extensionKind: ["ui"]`), never on remote SSH/WSL/container hosts.
+- Declares support for Restricted Mode and virtual workspaces: the theme needs no workspace trust.
+
 ## [0.1.0]
 First release of **Drakkar Black Ops**.
 
