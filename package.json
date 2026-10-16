@@ -4,16 +4,16 @@
     "description": "A true full black theme. No gray pretending to be black.",
     "publisher": "joaomgueiros",
     "author": "joaom.gueiros",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "license": "MIT",
     "icon": "imgs/icon.png",
     "repository": {
         "type": "git",
-        "url": "https://git.drakkarsecurity.com/joaom.gueiros/drakkar-black-ops-theme.git"
+        "url": "https://github.com/jmktt/drakkar-black-ops-theme.git"
     },
-    "homepage": "https://git.drakkarsecurity.com/joaom.gueiros/drakkar-black-ops-theme#readme",
+    "homepage": "https://github.com/jmktt/drakkar-black-ops-theme#readme",
     "bugs": {
-        "url": "https://git.drakkarsecurity.com/joaom.gueiros/drakkar-black-ops-theme/issues"
+        "url": "https://github.com/jmktt/drakkar-black-ops-theme/issues"
     },
     "galleryBanner": {
         "color": "#000000",

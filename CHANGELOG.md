@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.1.2]
+### Changed
+- Repository, homepage and issue links now point to the public GitHub mirror.
+
 ## [0.1.1]
 ### Fixed
 - Two color keys the editor does not recognize (`activityBar.activeForeground`, `testing.message.error.decorationForeground`) replaced with the correct ones.
